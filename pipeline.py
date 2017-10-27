@@ -21,8 +21,7 @@ def load_configuration(*args, **kwargs):
               'ec_password': EC_PASSWORD,
               'ec_ssh_key': EC_SSH_KEY,
               'column_names' : EC_DATA_VARIABLES,
-              'local_data_directory': EC_DATA_DIRECTORY,
-              'local_results_directory': EC_RESULTS_DIRECTORY
+              'local_data_directory': EC_DATA_DIRECTORY
               }
 
     current_directory = os.getcwd()

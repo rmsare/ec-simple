@@ -5,7 +5,6 @@
 # Pipeline settings 
 # -----------------------------------------------------------------------------
 EC_DATA_DIRECTORY = '<path to data dir>'
-EC_RESULTS_DIRECTORY = '<path to results dir>'
 EC_LOGIN = 'licor'
 EC_PASSWORD = 'licor'
 EC_SSH_KEY = '<path to public key>'
