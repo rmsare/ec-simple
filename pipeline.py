@@ -182,6 +182,36 @@ def convert_data_units(data, **kwargs):
     
     return {'data' : data}
 
+def filter_co2_flux(data, min_value=-500, max_value=5e4):
+
+    return data[(data['co2_flux'] > min_value) & (data['co2_flux'] < max_value)]
+
+def filter_H(data, min_value=-500, max_value=5e4):
+
+    return data[(data['H'] > min_value) & (data['H'] < max_value)]
+
+def filter_LE(data, min_value=-500, max_value=5e4):
+
+    return data[(data['LE'] > min_value) & (data['LE'] < max_value)]
+
+def filter_h2o_flux(data, min_value=-500, max_value=5e4):
+
+    return data[(data['h2o_flux'] > min_value) & (data['h2o_flux'] < max_value)]
+
+def filter_frictional_velocity(data, thresh=0.3):
+
+    return data[data['u*'] >= thresh]
+
+def filter_mean_wind_dir(data, sigma):
+
+    mean_dir = data.wind_dir.mean()
+
+    return data[np.abs(data['wind_dir'] - mean_dir) <= sigma]
+
+def filter_qc(data, keep_value=0):
+
+    return data[data['qc_co2_flux'] == keep_value]
+
 def filter_data(data, **kwargs):
     
     data = filter_qc(data)
