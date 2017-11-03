@@ -1,2 +1,2 @@
 # ec-simple
-Download summary data from LiCOR eddy covariance station
+This repo contains a simple pipeline for downloading summary data from a LiCOR eddy covariance station and applying some QC filters.
