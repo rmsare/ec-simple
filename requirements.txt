@@ -15,7 +15,7 @@ click==6.7
 click-plugins==1.0.3
 cligj==0.4.0
 conttest==0.0.8
-cryptography==2.0.3
+cryptography==3.2
 CVXcanon==0.1.1
 cvxpy==0.4.10
 cycler==0.10.0
