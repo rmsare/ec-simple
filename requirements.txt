@@ -34,7 +34,7 @@ futures==3.1.1
 GDAL==1.11.3
 geojson==2.0.0
 html5lib==0.999
-httplib2==0.9.1
+httplib2==0.19.0
 idna==2.6
 ipaddress==1.0.18
 iptools==0.6.1
