@@ -75,7 +75,7 @@ pyspatialite==3.0.1
 python-dateutil==2.6.1
 pytz==2017.2
 PyWavelets==0.5.2
-PyYAML==3.12
+PyYAML==5.4
 rasterio==0.36.0
 requests==2.18.3
 s3transfer==0.1.10
