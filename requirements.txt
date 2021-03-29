@@ -67,7 +67,7 @@ pyasn1==0.3.3
 pycparser==2.18
 pycrypto==2.6.1
 pyFFTW==0.10.4
-Pygments==2.2.0
+Pygments==2.7.4
 PyNaCl==1.1.2
 pyparsing==2.2.0
 pysftp==0.2.9
