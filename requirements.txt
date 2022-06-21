@@ -52,7 +52,7 @@ multiprocess==0.70.5
 networkx==1.11
 numba==0.34.0
 numexpr==2.6.2
-numpy==1.13.1
+numpy==1.22.0
 olefile==0.44
 optcomplete===1.2-devel
 pandas==0.20.3
