@@ -33,7 +33,7 @@ functools32==3.2.3.post2
 futures==3.1.1
 GDAL==1.11.3
 geojson==2.0.0
-html5lib==0.999
+html5lib==0.999999999
 httplib2==0.9.1
 idna==2.6
 ipaddress==1.0.18
